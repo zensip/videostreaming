@@ -1,0 +1,61 @@
+<% var title = 'Video Manage | LearnVid - E-learning Video Online' %>
+<% include header %>
+
+    <nav>
+        <ul>
+          <li><a href="/user_manage" style="font-size:18px">Users</a></li>
+          <li><a href="/video_manage" class="current" style="font-size:18px">Video</a></li>         
+          <li><a href="/logout" style="font-size:18px">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="main-box">
+    <div class="container">
+
+      <div class="inside">
+        <div class="wrapper zerogrid">
+      <div class="row">
+
+          <!-- content -->
+      <div class="col-2-3">
+        <div class="wrap-col">
+              <section id="content">
+
+                <div class="fancy-table" >
+                  <% if (message == 'Data successfully deleted!') { %>
+                  <h2 style="color:green"><%= message %></h2>
+                  <% } %>
+                  <% if (message == 'Data failed to delete!') { %>
+                  <h2 style="color:red"><%= message %></h2>
+                  <% } %>
+                  <h2>Video Data</h2>
+                  <table style="width:120%">
+                    <tr>
+                      <td>Video Name</td>
+                      <td>Uploader</td>
+                      <td>Action</td>
+                    </tr>
+                    <% if (data.length <= 0) {%>
+                    <h3>Data Not found</h3>
+                    <%} else { for (var i = 0; i < data.length; i++) {%>
+                    <tr>
+                      <td><%= data[i].name %></td>
+                      <td><%= data[i].uploader %></td>
+                      <td><a href="/admin_confirm_delete_video?name=<%= data[i].name %>">delete</a></td>
+                    </tr>
+                    <% }} %>
+                  </table>
+                </div>
+
+              </section>
+        </div>
+      </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<% include footer %>

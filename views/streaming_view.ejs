@@ -1,0 +1,55 @@
+<% var title = 'List Video | LearnVid - E-learning Video Online' %>
+<% include header %>
+
+    <nav>
+        <ul>
+          <li><a href="/" style="font-size:18px">Home</a></li>
+          <li><a href="/conference" style="font-size:18px">Conference</a></li>
+          <li><a href="/streaming" class="current" style="font-size:18px">Streaming</a></li>          
+          <li><a href="/login_page" style="font-size:18px">Log in</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="main-box">
+    <div class="container">
+      <div class="inside">
+        <div class="wrapper zerogrid">
+      <div class="row">
+
+          <!-- content -->
+      <div class="col-2-3">
+        <div class="wrap-col">
+              <section id="content">
+
+                <div class="fancy-table" >
+                  <table style="width:120%">
+                    <h2>Video List</h2>
+                    <tr>
+                      <td>Video Name</td>
+                      <td>Uploader</td>
+                      <td>Links</td>
+                    </tr>
+                     <% if (data.length <= 0) {%>
+                    <h3>Data Not found</h3>
+                    <%} else { for (var i = 0; i < data.length; i++) {%>
+                    <tr>
+                      <td><%= data[i].name %></td>
+                      <td><%= data[i].uploader %></td>
+                      <td><a href="/watch?name=<%= data[i].name %>">watch now</a></td>
+                    </tr>
+                    <% }} %>
+                  </table>
+                </div>
+
+              </section>
+        </div>
+      </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<% include footer %>

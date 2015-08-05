@@ -1,0 +1,114 @@
+<% var title = 'Streaming | LearnVid - E-learning Video Online' %>
+<% include header %>
+
+    <nav>
+        <ul>
+          <li><a href="/" style="font-size:18px">Home</a></li>
+          <li><a href="/conference" style="font-size:18px">Conference</a></li>
+          <li><a href="/streaming" class="current" style="font-size:18px">Streaming</a></li>          
+          <li><a href="/login_page" style="font-size:18px">Log in</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="main-box">
+    <div class="container">
+      <div class="inside">
+        <div class="wrapper zerogrid">
+      <div class="row">
+
+          <!-- aside -->
+        <div class="col-1-3">
+        <div class="wrap-col">
+              <aside>
+                <%if (video_name == 'none') { %>
+                  <h2>Waiting for next video</h2>
+                  <h3>*Refresh page to load video*</h3>
+                  <video controls style="background-color:black" width="420" height="240" autoplay>
+                  <!-- fallback -->
+                  Your browser does not support the <code>video</code> element.
+                  </video>
+                <% } else { %>
+                <% if (format_video == 'flv') { %>
+                  <h2>Now Playing <%= video_name %></h2>
+                  <a href="/public/video/<%= video_name %>"
+                      style="display:block;width:420px;height:300px;"
+                      id="player">
+                  </a>
+                 
+                  <script>
+                    flowplayer("player", "/public/js/flowplayer/flowplayer-3.2.18.swf");
+                  </script>
+
+                <% } else { %>
+                  <h2>Now Playing <%= video_name %></h2>
+                  <video controls width="420" height="100%" autoplay>
+                  <source src="public/video/<%= video_name %>" type="video/<%= format_video %>"/>
+                  <!-- fallback -->
+                  Your browser does not support the <code>video</code> element.
+                  </video>
+                <% } } %>
+                
+              </aside>  
+        </div>
+      </div>
+
+          <!-- content -->
+      <div class="col-2-3">
+        <div class="wrap-col">
+              <section id="content">
+
+                <div class="fancy-table" style="margin-left:3.5cm">
+                  <h2>Schedule Today</h2>
+                  <table style="width:80%">
+                    <tr>
+                      <td>Video Name</td>
+                      <td>Uploader</td>
+                      <td>Schedule</td>
+                      <td>Type</td>
+                    </tr>
+                    <% if (data.length <= 0) {%>
+                    <h3>No video found</h3>
+                    <%} else { for (var i = 0; i < data.length; i++) {
+                        var date_video = data[i].schedule_start.getDate();
+                        var month_video = data[i].schedule_start.getMonth();
+                        var year_video = data[i].schedule_start.getFullYear();
+                        var day_video = data[i].day;
+                        var time_video = data[i].schedule_start.getTime();
+                        var type_video = data[i].type;
+                        var hour_video = data[i].schedule_start.getHours();
+                        var minute_video = data[i].schedule_start.getMinutes();
+                        if(hour_video < 10)
+                        {
+                          hour_video = '0' + hour_video;
+                        }
+                        if(minute_video < 10)
+                        {
+                          minute_video = '0' + minute_video;
+                        } 
+                        var now = new Date();
+
+                        if( (date_video == now.getDate() && month_video == now.getMonth() && year_video == now.getFullYear() && type_video == 'onetime' && time_video >= now.getTime()) || 
+                          (type_video == 'repeated' && day_video.indexOf(now.getDay().toString()) != -1 && time_video >= now.getTime()) ) {
+                    %>
+                    <tr>
+                      <td><%= data[i].name %></td>
+                      <td><%= data[i].uploader %></td>
+                      <td><%= hour_video + ':' + minute_video %></td>
+                      <td><%= data[i].type %></td>
+                    </tr>
+                    <% } } } %>
+                  </table>
+                </div>
+
+              </section>
+        </div>
+      </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<% include footer %>

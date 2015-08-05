@@ -1,0 +1,722 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.2
+4 verbose readDependencies loading dependencies from /home/zein/Videos/Streaming/package.json
+5 warn package.json project_nodejs_streaming@1.0.0 No repository field.
+6 warn package.json project_nodejs_streaming@1.0.0 No README data
+7 verbose install where, deps [ '/home/zein/Videos/Streaming',
+7 verbose install   [ 'binaryjs',
+7 verbose install     'body-parser',
+7 verbose install     'connect-busboy',
+7 verbose install     'connect-flash',
+7 verbose install     'cookie-parser',
+7 verbose install     'cron',
+7 verbose install     'crypto-js',
+7 verbose install     'ejs',
+7 verbose install     'express',
+7 verbose install     'express-paginate',
+7 verbose install     'express-session',
+7 verbose install     'moment',
+7 verbose install     'mongoose',
+7 verbose install     'morgan',
+7 verbose install     'node-static',
+7 verbose install     'passport',
+7 verbose install     'passport-local',
+7 verbose install     'peer',
+7 verbose install     'peerjs',
+7 verbose install     'serve-favicon',
+7 verbose install     'webrtc.io',
+7 verbose install     'websocket' ] ]
+8 verbose install where, peers [ '/home/zein/Videos/Streaming', [] ]
+9 verbose installManyTop reading for lifecycle /home/zein/Videos/Streaming/package.json
+10 info preinstall project_nodejs_streaming@1.0.0
+11 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/binaryjs/package.json
+12 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/body-parser/package.json
+13 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/connect-busboy/package.json
+14 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/connect-flash/package.json
+15 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/cookie-parser/package.json
+16 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/crypto-js/package.json
+17 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/ejs/package.json
+18 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/express/package.json
+19 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/express-paginate/package.json
+20 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/express-session/package.json
+21 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/moment/package.json
+22 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/mongoose/package.json
+23 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/morgan/package.json
+24 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/node-static/package.json
+25 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/passport/package.json
+26 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/passport-local/package.json
+27 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/peer/package.json
+28 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/serve-favicon/package.json
+29 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/webrtc.io/package.json
+30 verbose installManyTop reading scoped package data from /home/zein/Videos/Streaming/node_modules/websocket/package.json
+31 info package.json passport-local@1.0.0 No license field.
+32 info package.json binaryjs@0.2.1 No license field.
+33 info package.json connect-flash@0.1.1 No license field.
+34 info package.json connect-busboy@0.0.2 No license field.
+35 info package.json moment@2.10.3 No license field.
+36 verbose readDependencies loading dependencies from /home/zein/Videos/Streaming/package.json
+37 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/binaryjs/package.json
+38 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/body-parser/package.json
+39 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/connect-busboy/package.json
+40 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/connect-flash/package.json
+41 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/cookie-parser/package.json
+42 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/crypto-js/package.json
+43 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/ejs/package.json
+44 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/express/package.json
+45 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/express-paginate/package.json
+46 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/express-session/package.json
+47 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/moment/package.json
+48 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/mongoose/package.json
+49 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/morgan/package.json
+50 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/node-static/package.json
+51 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/passport/package.json
+52 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/passport-local/package.json
+53 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/peer/package.json
+54 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/serve-favicon/package.json
+55 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/webrtc.io/package.json
+56 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/websocket/package.json
+57 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/.bin/bower/package.json
+58 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/.bin/peerjs/package.json
+59 verbose targetResolver reading package data from /home/zein/Videos/Streaming/node_modules/.bin/static/package.json
+60 silly cache add args [ 'peerjs@^0.3.14', null ]
+61 verbose cache add spec peerjs@^0.3.14
+62 silly cache add parsed spec { raw: 'peerjs@^0.3.14',
+62 silly cache add   scope: null,
+62 silly cache add   name: 'peerjs',
+62 silly cache add   rawSpec: '^0.3.14',
+62 silly cache add   spec: '>=0.3.14 <0.4.0',
+62 silly cache add   type: 'range' }
+63 silly addNamed peerjs@>=0.3.14 <0.4.0
+64 verbose addNamed ">=0.3.14 <0.4.0" is a valid semver range for peerjs
+65 silly addNameRange { name: 'peerjs', range: '>=0.3.14 <0.4.0', hasData: false }
+66 silly mapToRegistry name peerjs
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry uri https://registry.npmjs.org/peerjs
+70 verbose addNameRange registry:https://registry.npmjs.org/peerjs not in flight; fetching
+71 verbose already installed skipping serve-favicon@^2.2.1 /home/zein/Videos/Streaming
+72 verbose already installed skipping webrtc.io@0.0.4 /home/zein/Videos/Streaming
+73 verbose already installed skipping websocket@^1.0.19 /home/zein/Videos/Streaming
+74 verbose already installed skipping binaryjs@^0.2.1 /home/zein/Videos/Streaming
+75 verbose already installed skipping body-parser@^1.12.4 /home/zein/Videos/Streaming
+76 verbose already installed skipping connect-busboy@0.0.2 /home/zein/Videos/Streaming
+77 verbose already installed skipping connect-flash@^0.1.1 /home/zein/Videos/Streaming
+78 verbose already installed skipping cookie-parser@^1.3.5 /home/zein/Videos/Streaming
+79 silly cache add args [ 'cron@^1.0.9', null ]
+80 verbose cache add spec cron@^1.0.9
+81 silly cache add parsed spec { raw: 'cron@^1.0.9',
+81 silly cache add   scope: null,
+81 silly cache add   name: 'cron',
+81 silly cache add   rawSpec: '^1.0.9',
+81 silly cache add   spec: '>=1.0.9 <2.0.0',
+81 silly cache add   type: 'range' }
+82 silly addNamed cron@>=1.0.9 <2.0.0
+83 verbose addNamed ">=1.0.9 <2.0.0" is a valid semver range for cron
+84 silly addNameRange { name: 'cron', range: '>=1.0.9 <2.0.0', hasData: false }
+85 silly mapToRegistry name cron
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/cron
+89 verbose addNameRange registry:https://registry.npmjs.org/cron not in flight; fetching
+90 verbose already installed skipping crypto-js@^3.1.5 /home/zein/Videos/Streaming
+91 verbose already installed skipping ejs@^2.3.1 /home/zein/Videos/Streaming
+92 verbose already installed skipping express@^4.12.4 /home/zein/Videos/Streaming
+93 verbose already installed skipping express-paginate@0.0.8 /home/zein/Videos/Streaming
+94 verbose already installed skipping express-session@^1.11.2 /home/zein/Videos/Streaming
+95 verbose already installed skipping moment@^2.10.3 /home/zein/Videos/Streaming
+96 verbose already installed skipping mongoose@^4.0.3 /home/zein/Videos/Streaming
+97 verbose already installed skipping morgan@^1.5.3 /home/zein/Videos/Streaming
+98 verbose already installed skipping node-static@^0.7.6 /home/zein/Videos/Streaming
+99 verbose already installed skipping passport@^0.2.2 /home/zein/Videos/Streaming
+100 verbose already installed skipping passport-local@^1.0.0 /home/zein/Videos/Streaming
+101 verbose already installed skipping peer@^0.2.8 /home/zein/Videos/Streaming
+102 verbose request uri https://registry.npmjs.org/cron
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 10:12:59
+105 verbose request id dc7226f1d10dbc7c
+106 http request GET https://registry.npmjs.org/cron
+107 verbose request uri https://registry.npmjs.org/peerjs
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 10:12:59
+110 verbose etag "JLTBPR4STL5KHRMC84P5OH71"
+111 http request GET https://registry.npmjs.org/peerjs
+112 http 304 https://registry.npmjs.org/peerjs
+113 silly get cb [ 304,
+113 silly get   { date: 'Sat, 27 Jun 2015 03:13:07 GMT',
+113 silly get     via: '1.1 varnish',
+113 silly get     'cache-control': 'max-age=60',
+113 silly get     etag: '"JLTBPR4STL5KHRMC84P5OH71"',
+113 silly get     age: '0',
+113 silly get     connection: 'close',
+113 silly get     'x-served-by': 'cache-sin6920-SIN',
+113 silly get     'x-cache': 'MISS',
+113 silly get     'x-cache-hits': '0',
+113 silly get     'x-timer': 'S1435374787.902591,VS0,VE216',
+113 silly get     vary: 'Accept' } ]
+114 verbose etag https://registry.npmjs.org/peerjs from cache
+115 verbose get saving peerjs to /home/zein/.npm/registry.npmjs.org/peerjs/.cache.json
+116 silly addNameRange number 2 { name: 'peerjs', range: '>=0.3.14 <0.4.0', hasData: true }
+117 silly addNameRange versions [ 'peerjs',
+117 silly addNameRange   [ '0.2.0',
+117 silly addNameRange     '0.3.1',
+117 silly addNameRange     '0.3.2',
+117 silly addNameRange     '0.3.4',
+117 silly addNameRange     '0.3.5',
+117 silly addNameRange     '0.3.6',
+117 silly addNameRange     '0.3.8',
+117 silly addNameRange     '0.3.9',
+117 silly addNameRange     '0.3.10',
+117 silly addNameRange     '0.3.12',
+117 silly addNameRange     '0.3.13',
+117 silly addNameRange     '0.3.14' ] ]
+118 silly addNamed peerjs@0.3.14
+119 verbose addNamed "0.3.14" is a plain semver version for peerjs
+120 silly cache afterAdd peerjs@0.3.14
+121 verbose afterAdd /home/zein/.npm/peerjs/0.3.14/package/package.json not in flight; writing
+122 verbose afterAdd /home/zein/.npm/peerjs/0.3.14/package/package.json written
+123 http 200 https://registry.npmjs.org/cron
+124 silly get cb [ 200,
+124 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+124 silly get     etag: '"9MS0KL0QZER8N2FAX2W0OTWS0"',
+124 silly get     'content-type': 'application/json',
+124 silly get     'cache-control': 'max-age=60',
+124 silly get     'content-length': '42897',
+124 silly get     'accept-ranges': 'bytes',
+124 silly get     date: 'Sat, 27 Jun 2015 03:13:08 GMT',
+124 silly get     via: '1.1 varnish',
+124 silly get     age: '0',
+124 silly get     connection: 'close',
+124 silly get     'x-served-by': 'cache-sin6922-SIN',
+124 silly get     'x-cache': 'MISS',
+124 silly get     'x-cache-hits': '0',
+124 silly get     'x-timer': 'S1435374787.908663,VS0,VE1081',
+124 silly get     vary: 'Accept' } ]
+125 verbose get saving cron to /home/zein/.npm/registry.npmjs.org/cron/.cache.json
+126 silly addNameRange number 2 { name: 'cron', range: '>=1.0.9 <2.0.0', hasData: true }
+127 silly addNameRange versions [ 'cron',
+127 silly addNameRange   [ '0.1.0',
+127 silly addNameRange     '0.1.1',
+127 silly addNameRange     '0.1.2',
+127 silly addNameRange     '0.1.3',
+127 silly addNameRange     '0.2.0',
+127 silly addNameRange     '0.3.0',
+127 silly addNameRange     '0.3.1',
+127 silly addNameRange     '0.3.2',
+127 silly addNameRange     '0.3.3',
+127 silly addNameRange     '0.3.4',
+127 silly addNameRange     '1.0.0',
+127 silly addNameRange     '1.0.1',
+127 silly addNameRange     '1.0.2',
+127 silly addNameRange     '1.0.3',
+127 silly addNameRange     '1.0.4',
+127 silly addNameRange     '1.0.5',
+127 silly addNameRange     '1.0.6',
+127 silly addNameRange     '1.0.7',
+127 silly addNameRange     '1.0.8',
+127 silly addNameRange     '1.0.9' ] ]
+128 silly addNamed cron@1.0.9
+129 verbose addNamed "1.0.9" is a plain semver version for cron
+130 silly mapToRegistry name cron
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry uri https://registry.npmjs.org/cron
+134 verbose addRemoteTarball https://registry.npmjs.org/cron/-/cron-1.0.9.tgz not in flight; adding
+135 verbose addRemoteTarball [ 'https://registry.npmjs.org/cron/-/cron-1.0.9.tgz',
+135 verbose addRemoteTarball   '5177cf751f3263f00f45ebf69fead1ea96d31cfc' ]
+136 info retry fetch attempt 1 at 10:13:01
+137 info attempt registry request try #1 at 10:13:01
+138 http fetch GET https://registry.npmjs.org/cron/-/cron-1.0.9.tgz
+139 http fetch 200 https://registry.npmjs.org/cron/-/cron-1.0.9.tgz
+140 silly fetchAndShaCheck shasum 5177cf751f3263f00f45ebf69fead1ea96d31cfc
+141 verbose addTmpTarball /tmp/npm-2855-beab0ab4/registry.npmjs.org/cron/-/cron-1.0.9.tgz not in flight; adding
+142 verbose addTmpTarball already have metadata; skipping unpack for cron@1.0.9
+143 silly cache afterAdd cron@1.0.9
+144 verbose afterAdd /home/zein/.npm/cron/1.0.9/package/package.json not in flight; writing
+145 verbose afterAdd /home/zein/.npm/cron/1.0.9/package/package.json written
+146 silly install resolved [ { name: 'peerjs',
+146 silly install resolved     version: '0.3.14',
+146 silly install resolved     description: 'PeerJS client',
+146 silly install resolved     main: './lib/peer.js',
+146 silly install resolved     repository: { type: 'git', url: 'git://github.com/peers/peerjs.git' },
+146 silly install resolved     author: { name: 'Michelle Bu, Eric Zhang' },
+146 silly install resolved     license: 'MIT',
+146 silly install resolved     scripts: { prepublish: 'grunt' },
+146 silly install resolved     devDependencies:
+146 silly install resolved      { 'expect.js': '*',
+146 silly install resolved        grunt: '^0.4.5',
+146 silly install resolved        'grunt-browserify': '^3.0.1',
+146 silly install resolved        'grunt-cli': '^0.1.13',
+146 silly install resolved        'grunt-contrib-concat': '^0.5.0',
+146 silly install resolved        'grunt-contrib-uglify': '^0.5.1',
+146 silly install resolved        mocha: '*' },
+146 silly install resolved     dependencies:
+146 silly install resolved      { eventemitter3: '^0.1.5',
+146 silly install resolved        'js-binarypack': '0.0.9',
+146 silly install resolved        reliable: 'git+https://github.com/michelle/reliable.git' },
+146 silly install resolved     readme: '# PeerJS: Simple peer-to-peer with WebRTC #\n\nPeerJS provides a complete, configurable, and easy-to-use peer-to-peer API built on top of WebRTC, supporting both data channels and media streams.\n\n### [http://peerjs.com](http://peerjs.com)\n\n## Setup\n\n\n**Include the library**\n\n```html\n<script src="http://cdn.peerjs.com/0.3/peer.js"></script>\n```\n\n**Create a Peer**  \nGet a [free API key](http://peerjs.com/peerserver). Your id only needs to be unique to the namespace of your API key.\n```javascript\nvar peer = new Peer(\'pick-an-id\', {key: \'myapikey\'}); \n// You can pick your own id or omit the id if you want to get a random one from the server.\n```\n\n## Data connections\n**Connect**\n```javascript\nvar conn = peer.connect(\'another-peers-id\');\nconn.on(\'open\', function(){\n  conn.send(\'hi!\');\n});\n```\n**Receive**\n```javascript\npeer.on(\'connection\', function(conn) {\n  conn.on(\'data\', function(data){\n    // Will print \'hi!\'\n    console.log(data);\n  });\n});\n```\n\n## Media calls\n**Call**\n```javascript\nnavigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;\nnavigator.getUserMedia({video: true, audio: true}, function(stream) {\n  var call = peer.call(\'another-peers-id\', stream);\n  call.on(\'stream\', function(remoteStream) {\n    // Show stream in some <video> element.\n  });\n}, function(err) {\n  console.log(\'Failed to get local stream\' ,err);\n});\n\n```\n**Answer**\n```javascript\nnavigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;\npeer.on(\'call\', function(call) {\n  navigator.getUserMedia({video: true, audio: true}, function(stream) {\n    call.answer(stream); // Answer the call with an A/V stream.\n    call.on(\'stream\', function(remoteStream) {\n      // Show stream in some <video> element.\n    });\n  }, function(err) {\n    console.log(\'Failed to get local stream\' ,err);\n  });\n});\n```\n## Links\n\n### [Documentation / API Reference](http://peerjs.com/docs)\n\n### [WebRTC Browser compatibility status](http://peerjs.com/status)\n\n### [PeerServer](https://github.com/peers/peerjs-server)\n\n### [Discuss PeerJS on our Google Group](https://groups.google.com/forum/?fromgroups#!forum/peerjs)\n\n### [Changelog](https://github.com/peers/peerjs/blob/master/changelog.md)\n\n##License\nPeerJS is licensed under the [MIT License](https://tldrlegal.com/l/mit).\n\n',
+146 silly install resolved     readmeFilename: 'README.md',
+146 silly install resolved     bugs: { url: 'https://github.com/peers/peerjs/issues' },
+146 silly install resolved     homepage: 'https://github.com/peers/peerjs#readme',
+146 silly install resolved     _id: 'peerjs@0.3.14',
+146 silly install resolved     _from: 'peerjs@>=0.3.14 <0.4.0' },
+146 silly install resolved   { name: 'cron',
+146 silly install resolved     description: 'Cron jobs for your node',
+146 silly install resolved     version: '1.0.9',
+146 silly install resolved     author:
+146 silly install resolved      { name: 'Nick Campbell',
+146 silly install resolved        email: 'nicholas.j.campbell@gmail.com',
+146 silly install resolved        url: 'http://github.com/ncb000gt' },
+146 silly install resolved     bugs: { url: 'http://github.com/ncb000gt/node-cron/issues' },
+146 silly install resolved     repository: { type: 'git', url: 'http://github.com/ncb000gt/node-cron.git' },
+146 silly install resolved     main: 'lib/cron',
+146 silly install resolved     scripts: { test: 'make test' },
+146 silly install resolved     dependencies: { 'moment-timezone': '~0.3.0' },
+146 silly install resolved     devDependencies: { nodeunit: '>=0.5.4', sinon: '~1.12.x' },
+146 silly install resolved     licenses: [ [Object] ],
+146 silly install resolved     contributors:
+146 silly install resolved      [ [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object] ],
+146 silly install resolved     gitHead: '487ccab8583322395028abe854e7d6d1f8ed7387',
+146 silly install resolved     homepage: 'https://github.com/ncb000gt/node-cron',
+146 silly install resolved     _id: 'cron@1.0.9',
+146 silly install resolved     _shasum: '5177cf751f3263f00f45ebf69fead1ea96d31cfc',
+146 silly install resolved     _from: 'cron@>=1.0.9 <2.0.0',
+146 silly install resolved     _npmVersion: '2.3.0',
+146 silly install resolved     _nodeVersion: '1.0.4',
+146 silly install resolved     _npmUser: { name: 'ncb000gt', email: 'nicholas.j.campbell@gmail.com' },
+146 silly install resolved     maintainers: [ [Object] ],
+146 silly install resolved     dist:
+146 silly install resolved      { shasum: '5177cf751f3263f00f45ebf69fead1ea96d31cfc',
+146 silly install resolved        tarball: 'http://registry.npmjs.org/cron/-/cron-1.0.9.tgz' },
+146 silly install resolved     directories: {},
+146 silly install resolved     _resolved: 'https://registry.npmjs.org/cron/-/cron-1.0.9.tgz' } ]
+147 info install peerjs@0.3.14 into /home/zein/Videos/Streaming
+148 info install cron@1.0.9 into /home/zein/Videos/Streaming
+149 info installOne peerjs@0.3.14
+150 verbose installOne of peerjs to /home/zein/Videos/Streaming not in flight; installing
+151 info installOne cron@1.0.9
+152 verbose installOne of cron to /home/zein/Videos/Streaming not in flight; installing
+153 verbose lock using /home/zein/.npm/_locks/peerjs-758d901805c9139a.lock for /home/zein/Videos/Streaming/node_modules/peerjs
+154 verbose lock using /home/zein/.npm/_locks/cron-57f89976b88ae1ba.lock for /home/zein/Videos/Streaming/node_modules/cron
+155 silly install write writing peerjs 0.3.14 to /home/zein/Videos/Streaming/node_modules/peerjs
+156 silly install write writing cron 1.0.9 to /home/zein/Videos/Streaming/node_modules/cron
+157 verbose unbuild node_modules/peerjs
+158 verbose unbuild node_modules/cron
+159 silly gentlyRm /home/zein/Videos/Streaming/node_modules/peerjs is being purged from base /home/zein/Videos/Streaming
+160 verbose gentlyRm don't care about contents; nuking /home/zein/Videos/Streaming/node_modules/peerjs
+161 silly gentlyRm /home/zein/Videos/Streaming/node_modules/cron is being purged from base /home/zein/Videos/Streaming
+162 verbose gentlyRm don't care about contents; nuking /home/zein/Videos/Streaming/node_modules/cron
+163 verbose tar unpack /home/zein/.npm/peerjs/0.3.14/package.tgz
+164 verbose tar unpacking to /home/zein/Videos/Streaming/node_modules/peerjs
+165 silly gentlyRm /home/zein/Videos/Streaming/node_modules/peerjs is being purged
+166 verbose gentlyRm don't care about contents; nuking /home/zein/Videos/Streaming/node_modules/peerjs
+167 verbose tar unpack /home/zein/.npm/cron/1.0.9/package.tgz
+168 verbose tar unpacking to /home/zein/Videos/Streaming/node_modules/cron
+169 silly gentlyRm /home/zein/Videos/Streaming/node_modules/cron is being purged
+170 verbose gentlyRm don't care about contents; nuking /home/zein/Videos/Streaming/node_modules/cron
+171 silly gunzTarPerm modes [ '755', '644' ]
+172 silly gunzTarPerm modes [ '755', '644' ]
+173 silly gunzTarPerm extractEntry package.json
+174 silly gunzTarPerm extractEntry package.json
+175 silly gunzTarPerm extractEntry .npmignore
+176 silly gunzTarPerm extractEntry README.md
+177 silly gunzTarPerm extractEntry .npmignore
+178 silly gunzTarPerm extractEntry README.md
+179 silly gunzTarPerm extractEntry LICENSE
+180 silly gunzTarPerm extractEntry Gruntfile.js
+181 silly gunzTarPerm extractEntry test.js
+182 silly gunzTarPerm extractEntry lib/cron.js
+183 silly gunzTarPerm extractEntry test/adapter.js
+184 silly gunzTarPerm extractEntry test/util.js
+185 silly gunzTarPerm extractEntry bower.json
+186 silly gunzTarPerm extractEntry test/test.html
+187 silly gunzTarPerm extractEntry ;
+188 silly gunzTarPerm extractEntry .travis.yml
+189 silly gunzTarPerm extractEntry tests/test-cron.js
+190 silly gunzTarPerm extractEntry dist/peer.js
+191 silly gunzTarPerm extractEntry tests/test-crontime.js
+192 silly gunzTarPerm extractEntry Makefile
+193 silly gunzTarPerm extractEntry dist/peer.min.js
+194 silly gunzTarPerm extractEntry docs/package.json
+195 silly gunzTarPerm extractEntry docs/build.js
+196 silly gunzTarPerm extractEntry docs/index.js
+197 silly gunzTarPerm extractEntry docs/api.json
+198 silly gunzTarPerm extractEntry docs/api.md
+199 silly gunzTarPerm extractEntry wercker.yml
+200 silly gunzTarPerm extractEntry docs/index.html
+201 silly gunzTarPerm extractEntry docs/readme.md
+202 silly gunzTarPerm extractEntry docs/style.css
+203 silly gunzTarPerm extractEntry docs/template.html
+204 silly gunzTarPerm extractEntry examples/chat-min.html
+205 silly gunzTarPerm extractEntry examples/chat-old.html
+206 silly gunzTarPerm extractEntry examples/chat-pong.html
+207 verbose write writing to /home/zein/Videos/Streaming/node_modules/cron/package.json
+208 info preinstall cron@1.0.9
+209 verbose readDependencies loading dependencies from /home/zein/Videos/Streaming/node_modules/cron/package.json
+210 silly prepareForInstallMany adding moment-timezone@~0.3.0 from cron dependencies
+211 verbose readDependencies loading dependencies from /home/zein/Videos/Streaming/node_modules/cron/package.json
+212 silly gunzTarPerm extractEntry examples/chat.html
+213 silly cache add args [ 'moment-timezone@~0.3.0', null ]
+214 verbose cache add spec moment-timezone@~0.3.0
+215 silly cache add parsed spec { raw: 'moment-timezone@~0.3.0',
+215 silly cache add   scope: null,
+215 silly cache add   name: 'moment-timezone',
+215 silly cache add   rawSpec: '~0.3.0',
+215 silly cache add   spec: '>=0.3.0 <0.4.0',
+215 silly cache add   type: 'range' }
+216 silly addNamed moment-timezone@>=0.3.0 <0.4.0
+217 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for moment-timezone
+218 silly addNameRange { name: 'moment-timezone',
+218 silly addNameRange   range: '>=0.3.0 <0.4.0',
+218 silly addNameRange   hasData: false }
+219 silly mapToRegistry name moment-timezone
+220 silly mapToRegistry using default registry
+221 silly mapToRegistry registry https://registry.npmjs.org/
+222 silly mapToRegistry uri https://registry.npmjs.org/moment-timezone
+223 verbose addNameRange registry:https://registry.npmjs.org/moment-timezone not in flight; fetching
+224 verbose request uri https://registry.npmjs.org/moment-timezone
+225 verbose request no auth needed
+226 info attempt registry request try #1 at 10:13:01
+227 http request GET https://registry.npmjs.org/moment-timezone
+228 silly gunzTarPerm extractEntry examples/fancy.css
+229 silly gunzTarPerm extractEntry examples/helloworld.html
+230 silly gunzTarPerm extractEntry examples/helloworldv.html
+231 silly gunzTarPerm extractEntry examples/readme.md
+232 silly gunzTarPerm extractEntry examples/videochat/index.html
+233 silly gunzTarPerm extractEntry examples/videochat/style.css
+234 silly gunzTarPerm extractEntry lib/adapter.js
+235 silly gunzTarPerm extractEntry lib/dataconnection.js
+236 silly gunzTarPerm extractEntry lib/exports.js
+237 silly gunzTarPerm extractEntry lib/mediaconnection.js
+238 silly gunzTarPerm extractEntry lib/negotiator.js
+239 silly gunzTarPerm extractEntry lib/peer.js
+240 silly gunzTarPerm extractEntry lib/socket.js
+241 silly gunzTarPerm extractEntry lib/util.js
+242 silly gunzTarPerm extractEntry Makefile
+243 silly gunzTarPerm extractEntry changelog.md
+244 verbose write writing to /home/zein/Videos/Streaming/node_modules/peerjs/package.json
+245 info preinstall peerjs@0.3.14
+246 verbose readDependencies loading dependencies from /home/zein/Videos/Streaming/node_modules/peerjs/package.json
+247 silly prepareForInstallMany adding eventemitter3@^0.1.5 from peerjs dependencies
+248 silly prepareForInstallMany adding js-binarypack@0.0.9 from peerjs dependencies
+249 silly prepareForInstallMany adding reliable@git+https://github.com/michelle/reliable.git from peerjs dependencies
+250 verbose readDependencies loading dependencies from /home/zein/Videos/Streaming/node_modules/peerjs/package.json
+251 silly cache add args [ 'eventemitter3@^0.1.5', null ]
+252 verbose cache add spec eventemitter3@^0.1.5
+253 silly cache add args [ 'js-binarypack@0.0.9', null ]
+254 verbose cache add spec js-binarypack@0.0.9
+255 silly cache add parsed spec { raw: 'eventemitter3@^0.1.5',
+255 silly cache add   scope: null,
+255 silly cache add   name: 'eventemitter3',
+255 silly cache add   rawSpec: '^0.1.5',
+255 silly cache add   spec: '>=0.1.5 <0.2.0',
+255 silly cache add   type: 'range' }
+256 silly addNamed eventemitter3@>=0.1.5 <0.2.0
+257 verbose addNamed ">=0.1.5 <0.2.0" is a valid semver range for eventemitter3
+258 silly addNameRange { name: 'eventemitter3',
+258 silly addNameRange   range: '>=0.1.5 <0.2.0',
+258 silly addNameRange   hasData: false }
+259 silly mapToRegistry name eventemitter3
+260 silly mapToRegistry using default registry
+261 silly mapToRegistry registry https://registry.npmjs.org/
+262 silly mapToRegistry uri https://registry.npmjs.org/eventemitter3
+263 verbose addNameRange registry:https://registry.npmjs.org/eventemitter3 not in flight; fetching
+264 silly cache add parsed spec { raw: 'js-binarypack@0.0.9',
+264 silly cache add   scope: null,
+264 silly cache add   name: 'js-binarypack',
+264 silly cache add   rawSpec: '0.0.9',
+264 silly cache add   spec: '0.0.9',
+264 silly cache add   type: 'version' }
+265 silly addNamed js-binarypack@0.0.9
+266 verbose addNamed "0.0.9" is a plain semver version for js-binarypack
+267 silly mapToRegistry name js-binarypack
+268 silly mapToRegistry using default registry
+269 silly mapToRegistry registry https://registry.npmjs.org/
+270 silly mapToRegistry uri https://registry.npmjs.org/js-binarypack
+271 verbose addNameVersion registry:https://registry.npmjs.org/js-binarypack not in flight; fetching
+272 silly cache add args [ 'reliable@git+https://github.com/michelle/reliable.git',
+272 silly cache add   null ]
+273 verbose cache add spec reliable@git+https://github.com/michelle/reliable.git
+274 silly cache add parsed spec { raw: 'reliable@git+https://github.com/michelle/reliable.git',
+274 silly cache add   scope: null,
+274 silly cache add   name: 'reliable',
+274 silly cache add   rawSpec: 'git+https://github.com/michelle/reliable.git',
+274 silly cache add   spec: 'git+https://github.com/michelle/reliable.git',
+274 silly cache add   type: 'hosted',
+274 silly cache add   hosted:
+274 silly cache add    { type: 'github',
+274 silly cache add      ssh: 'git@github.com:michelle/reliable.git',
+274 silly cache add      sshUrl: 'git+ssh://git@github.com/michelle/reliable.git',
+274 silly cache add      httpsUrl: 'git+https://github.com/michelle/reliable.git',
+274 silly cache add      gitUrl: 'git://github.com/michelle/reliable.git',
+274 silly cache add      shortcut: 'github:michelle/reliable',
+274 silly cache add      directUrl: 'https://raw.githubusercontent.com/michelle/reliable/master/package.json' } }
+275 verbose addRemoteGit caching git+https://github.com/michelle/reliable.git
+276 verbose addRemoteGit git+https://github.com/michelle/reliable.git is a repository hosted by github
+277 silly tryClone cloning git+https://github.com/michelle/reliable.git via git+https://github.com/michelle/reliable.git
+278 verbose tryClone https-github-com-michelle-reliable-git-d471b5bd not in flight; caching
+279 verbose request uri https://registry.npmjs.org/js-binarypack
+280 verbose request no auth needed
+281 info attempt registry request try #1 at 10:13:02
+282 verbose etag "G61MF79ZT618IOP6AA56B9M4"
+283 http request GET https://registry.npmjs.org/js-binarypack
+284 info git [ 'clone',
+284 info git   '--template=/home/zein/.npm/_git-remotes/_templates',
+284 info git   '--mirror',
+284 info git   'https://github.com/michelle/reliable.git',
+284 info git   '/home/zein/.npm/_git-remotes/https-github-com-michelle-reliable-git-d471b5bd' ]
+285 verbose request uri https://registry.npmjs.org/eventemitter3
+286 verbose request no auth needed
+287 info attempt registry request try #1 at 10:13:02
+288 verbose etag "1R2TYQSCEAXWWAY52PM6HGETE"
+289 http request GET https://registry.npmjs.org/eventemitter3
+290 http 200 https://registry.npmjs.org/moment-timezone
+291 silly get cb [ 200,
+291 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+291 silly get     etag: '"CTLNZPWITCM4SJLDWB6MM8F7Z"',
+291 silly get     'content-type': 'application/json',
+291 silly get     'cache-control': 'max-age=60',
+291 silly get     'content-length': '21505',
+291 silly get     'accept-ranges': 'bytes',
+291 silly get     date: 'Sat, 27 Jun 2015 03:13:10 GMT',
+291 silly get     via: '1.1 varnish',
+291 silly get     age: '0',
+291 silly get     connection: 'close',
+291 silly get     'x-served-by': 'cache-sin6924-SIN',
+291 silly get     'x-cache': 'HIT',
+291 silly get     'x-cache-hits': '1',
+291 silly get     'x-timer': 'S1435374789.767201,VS0,VE832',
+291 silly get     vary: 'Accept' } ]
+292 verbose get saving moment-timezone to /home/zein/.npm/registry.npmjs.org/moment-timezone/.cache.json
+293 silly addNameRange number 2 { name: 'moment-timezone',
+293 silly addNameRange   range: '>=0.3.0 <0.4.0',
+293 silly addNameRange   hasData: true }
+294 silly addNameRange versions [ 'moment-timezone',
+294 silly addNameRange   [ '0.0.1',
+294 silly addNameRange     '0.0.2',
+294 silly addNameRange     '0.0.3',
+294 silly addNameRange     '0.0.5',
+294 silly addNameRange     '0.0.6',
+294 silly addNameRange     '0.1.0',
+294 silly addNameRange     '0.2.0',
+294 silly addNameRange     '0.2.1',
+294 silly addNameRange     '0.2.2',
+294 silly addNameRange     '0.2.3',
+294 silly addNameRange     '0.2.4',
+294 silly addNameRange     '0.2.5',
+294 silly addNameRange     '0.3.0',
+294 silly addNameRange     '0.3.1',
+294 silly addNameRange     '0.4.0' ] ]
+295 silly addNamed moment-timezone@0.3.1
+296 verbose addNamed "0.3.1" is a plain semver version for moment-timezone
+297 silly mapToRegistry name moment-timezone
+298 silly mapToRegistry using default registry
+299 silly mapToRegistry registry https://registry.npmjs.org/
+300 silly mapToRegistry uri https://registry.npmjs.org/moment-timezone
+301 verbose addRemoteTarball https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.3.1.tgz not in flight; adding
+302 verbose addRemoteTarball [ 'https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.3.1.tgz',
+302 verbose addRemoteTarball   '3ef47856b02d53b718a10a5ec2023aa299e07bf5' ]
+303 info retry fetch attempt 1 at 10:13:02
+304 info attempt registry request try #1 at 10:13:02
+305 http fetch GET https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.3.1.tgz
+306 http 304 https://registry.npmjs.org/js-binarypack
+307 silly get cb [ 304,
+307 silly get   { date: 'Sat, 27 Jun 2015 03:13:10 GMT',
+307 silly get     via: '1.1 varnish',
+307 silly get     'cache-control': 'max-age=60',
+307 silly get     etag: '"G61MF79ZT618IOP6AA56B9M4"',
+307 silly get     age: '0',
+307 silly get     connection: 'close',
+307 silly get     'x-served-by': 'cache-sin6921-SIN',
+307 silly get     'x-cache': 'MISS',
+307 silly get     'x-cache-hits': '0',
+307 silly get     'x-timer': 'S1435374790.089332,VS0,VE852',
+307 silly get     vary: 'Accept' } ]
+308 verbose etag https://registry.npmjs.org/js-binarypack from cache
+309 verbose get saving js-binarypack to /home/zein/.npm/registry.npmjs.org/js-binarypack/.cache.json
+310 http fetch 200 https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.3.1.tgz
+311 silly cache afterAdd js-binarypack@0.0.9
+312 verbose afterAdd /home/zein/.npm/js-binarypack/0.0.9/package/package.json not in flight; writing
+313 verbose afterAdd /home/zein/.npm/js-binarypack/0.0.9/package/package.json written
+314 http 304 https://registry.npmjs.org/eventemitter3
+315 silly get cb [ 304,
+315 silly get   { date: 'Sat, 27 Jun 2015 03:13:10 GMT',
+315 silly get     via: '1.1 varnish',
+315 silly get     'cache-control': 'max-age=60',
+315 silly get     etag: '"1R2TYQSCEAXWWAY52PM6HGETE"',
+315 silly get     age: '0',
+315 silly get     connection: 'close',
+315 silly get     'x-served-by': 'cache-sin6923-SIN',
+315 silly get     'x-cache': 'HIT',
+315 silly get     'x-cache-hits': '1',
+315 silly get     'x-timer': 'S1435374790.091163,VS0,VE1070',
+315 silly get     vary: 'Accept' } ]
+316 verbose etag https://registry.npmjs.org/eventemitter3 from cache
+317 verbose get saving eventemitter3 to /home/zein/.npm/registry.npmjs.org/eventemitter3/.cache.json
+318 silly addNameRange number 2 { name: 'eventemitter3', range: '>=0.1.5 <0.2.0', hasData: true }
+319 silly addNameRange versions [ 'eventemitter3',
+319 silly addNameRange   [ '0.0.0',
+319 silly addNameRange     '0.0.1',
+319 silly addNameRange     '0.1.0',
+319 silly addNameRange     '0.1.1',
+319 silly addNameRange     '0.1.2',
+319 silly addNameRange     '0.1.3',
+319 silly addNameRange     '0.1.4',
+319 silly addNameRange     '0.1.5',
+319 silly addNameRange     '0.1.6',
+319 silly addNameRange     '1.0.0',
+319 silly addNameRange     '1.0.1',
+319 silly addNameRange     '1.0.2',
+319 silly addNameRange     '1.0.3',
+319 silly addNameRange     '1.1.0',
+319 silly addNameRange     '1.1.1' ] ]
+320 silly addNamed eventemitter3@0.1.6
+321 verbose addNamed "0.1.6" is a plain semver version for eventemitter3
+322 silly cache afterAdd eventemitter3@0.1.6
+323 verbose afterAdd /home/zein/.npm/eventemitter3/0.1.6/package/package.json not in flight; writing
+324 verbose afterAdd /home/zein/.npm/eventemitter3/0.1.6/package/package.json written
+325 silly fetchAndShaCheck shasum 3ef47856b02d53b718a10a5ec2023aa299e07bf5
+326 verbose addTmpTarball /tmp/npm-2855-beab0ab4/registry.npmjs.org/moment-timezone/-/moment-timezone-0.3.1.tgz not in flight; adding
+327 verbose addTmpTarball already have metadata; skipping unpack for moment-timezone@0.3.1
+328 silly cache afterAdd moment-timezone@0.3.1
+329 verbose afterAdd /home/zein/.npm/moment-timezone/0.3.1/package/package.json not in flight; writing
+330 verbose afterAdd /home/zein/.npm/moment-timezone/0.3.1/package/package.json written
+331 silly install resolved [ { name: 'moment-timezone',
+331 silly install resolved     version: '0.3.1',
+331 silly install resolved     description: 'Parse and display moments in any timezone.',
+331 silly install resolved     homepage: 'http://momentjs.com/timezone/',
+331 silly install resolved     author:
+331 silly install resolved      { name: 'Tim Wood',
+331 silly install resolved        email: 'washwithcare@gmail.com',
+331 silly install resolved        url: 'http://timwoodcreates.com/' },
+331 silly install resolved     keywords:
+331 silly install resolved      [ 'moment',
+331 silly install resolved        'date',
+331 silly install resolved        'time',
+331 silly install resolved        'timezone',
+331 silly install resolved        'olson',
+331 silly install resolved        'iana',
+331 silly install resolved        'zone',
+331 silly install resolved        'tz' ],
+331 silly install resolved     main: './index.js',
+331 silly install resolved     engines: { node: '*' },
+331 silly install resolved     repository:
+331 silly install resolved      { type: 'git',
+331 silly install resolved        url: 'https://github.com/moment/moment-timezone.git' },
+331 silly install resolved     bugs: { url: 'https://github.com/moment/moment-timezone/issues' },
+331 silly install resolved     license: 'MIT',
+331 silly install resolved     dependencies: { moment: '>= 2.6.0' },
+331 silly install resolved     devDependencies:
+331 silly install resolved      { grunt: '0.4.4',
+331 silly install resolved        'grunt-contrib-clean': '0.5.0',
+331 silly install resolved        'grunt-contrib-nodeunit': '0.3.3',
+331 silly install resolved        'grunt-contrib-jshint': '0.10.0',
+331 silly install resolved        'grunt-contrib-uglify': '0.4.0' },
+331 silly install resolved     scripts: { test: 'grunt' },
+331 silly install resolved     gitHead: '09d96e8fb4a4c7c99aa6045ddf7d5c29e680916b',
+331 silly install resolved     _id: 'moment-timezone@0.3.1',
+331 silly install resolved     _shasum: '3ef47856b02d53b718a10a5ec2023aa299e07bf5',
+331 silly install resolved     _from: 'moment-timezone@>=0.3.0 <0.4.0',
+331 silly install resolved     _npmVersion: '2.1.18',
+331 silly install resolved     _nodeVersion: '0.10.35',
+331 silly install resolved     _npmUser: { name: 'timrwood', email: 'washwithcare@gmail.com' },
+331 silly install resolved     maintainers: [ [Object], [Object] ],
+331 silly install resolved     dist:
+331 silly install resolved      { shasum: '3ef47856b02d53b718a10a5ec2023aa299e07bf5',
+331 silly install resolved        tarball: 'http://registry.npmjs.org/moment-timezone/-/moment-timezone-0.3.1.tgz' },
+331 silly install resolved     directories: {},
+331 silly install resolved     _resolved: 'https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.3.1.tgz' } ]
+332 info install moment-timezone@0.3.1 into /home/zein/Videos/Streaming/node_modules/cron
+333 info installOne moment-timezone@0.3.1
+334 verbose installOne of moment-timezone to /home/zein/Videos/Streaming/node_modules/cron not in flight; installing
+335 verbose lock using /home/zein/.npm/_locks/moment-timezone-9cc3ef375963cdd1.lock for /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone
+336 silly install write writing moment-timezone 0.3.1 to /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone
+337 verbose unbuild node_modules/cron/node_modules/moment-timezone
+338 silly gentlyRm /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone is being purged from base /home/zein/Videos/Streaming
+339 verbose gentlyRm don't care about contents; nuking /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone
+340 verbose tar unpack /home/zein/.npm/moment-timezone/0.3.1/package.tgz
+341 verbose tar unpacking to /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone
+342 silly gentlyRm /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone is being purged
+343 verbose gentlyRm don't care about contents; nuking /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone
+344 silly gunzTarPerm modes [ '755', '644' ]
+345 silly gunzTarPerm extractEntry package.json
+346 silly gunzTarPerm extractEntry .npmignore
+347 silly gunzTarPerm extractEntry README.md
+348 silly gunzTarPerm extractEntry LICENSE
+349 silly gunzTarPerm extractEntry index.js
+350 silly gunzTarPerm extractEntry moment-timezone-utils.js
+351 silly gunzTarPerm extractEntry moment-timezone.js
+352 silly gunzTarPerm extractEntry changelog.md
+353 silly gunzTarPerm extractEntry data/meta/latest.json
+354 silly gunzTarPerm extractEntry data/packed/latest.json
+355 silly gunzTarPerm extractEntry data/unpacked/latest.json
+356 verbose write writing to /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone/package.json
+357 info preinstall moment-timezone@0.3.1
+358 verbose readDependencies loading dependencies from /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone/package.json
+359 verbose readDependencies loading dependencies from /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone/package.json
+360 silly install resolved []
+361 verbose about to build /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone
+362 info build /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone
+363 info linkStuff moment-timezone@0.3.1
+364 silly linkStuff moment-timezone@0.3.1 has /home/zein/Videos/Streaming/node_modules/cron/node_modules as its parent node_modules
+365 verbose linkBins moment-timezone@0.3.1
+366 verbose linkMans moment-timezone@0.3.1
+367 verbose rebuildBundles moment-timezone@0.3.1
+368 info install moment-timezone@0.3.1
+369 info postinstall moment-timezone@0.3.1
+370 verbose unlock done using /home/zein/.npm/_locks/moment-timezone-9cc3ef375963cdd1.lock for /home/zein/Videos/Streaming/node_modules/cron/node_modules/moment-timezone
+371 verbose about to build /home/zein/Videos/Streaming/node_modules/cron
+372 info build /home/zein/Videos/Streaming/node_modules/cron
+373 info linkStuff cron@1.0.9
+374 silly linkStuff cron@1.0.9 has /home/zein/Videos/Streaming/node_modules as its parent node_modules
+375 verbose linkBins cron@1.0.9
+376 verbose linkMans cron@1.0.9
+377 verbose rebuildBundles cron@1.0.9
+378 verbose rebuildBundles [ 'moment-timezone' ]
+379 info install cron@1.0.9
+380 info postinstall cron@1.0.9
+381 verbose unlock done using /home/zein/.npm/_locks/cron-57f89976b88ae1ba.lock for /home/zein/Videos/Streaming/node_modules/cron
+382 error git clone --template=/home/zein/.npm/_git-remotes/_templates --mirror https://github.com/michelle/reliable.git /home/zein/.npm/_git-remotes/https-github-com-michelle-reliable-git-d471b5bd: Cloning into bare repository '/home/zein/.npm/_git-remotes/https-github-com-michelle-reliable-git-d471b5bd'...
+382 error git clone --template=/home/zein/.npm/_git-remotes/_templates --mirror https://github.com/michelle/reliable.git /home/zein/.npm/_git-remotes/https-github-com-michelle-reliable-git-d471b5bd: fatal: unable to access 'https://github.com/michelle/reliable.git/': Failed to connect to github.com port 443: Connection timed out
+383 verbose about to build /home/zein/Videos/Streaming/node_modules/peerjs
+384 verbose unlock done using /home/zein/.npm/_locks/peerjs-758d901805c9139a.lock for /home/zein/Videos/Streaming/node_modules/peerjs
+385 verbose stack Error: Command failed: git clone --template=/home/zein/.npm/_git-remotes/_templates --mirror https://github.com/michelle/reliable.git /home/zein/.npm/_git-remotes/https-github-com-michelle-reliable-git-d471b5bd
+385 verbose stack Cloning into bare repository '/home/zein/.npm/_git-remotes/https-github-com-michelle-reliable-git-d471b5bd'...
+385 verbose stack fatal: unable to access 'https://github.com/michelle/reliable.git/': Failed to connect to github.com port 443: Connection timed out
+385 verbose stack
+385 verbose stack     at ChildProcess.exithandler (child_process.js:751:12)
+385 verbose stack     at ChildProcess.emit (events.js:110:17)
+385 verbose stack     at maybeClose (child_process.js:1015:16)
+385 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+386 verbose cwd /home/zein/Videos/Streaming
+387 error Linux 3.13.0-55-generic
+388 error argv "node" "/usr/local/bin/npm" "install"
+389 error node v0.12.2
+390 error npm  v2.11.2
+391 error code 128
+392 error Command failed: git clone --template=/home/zein/.npm/_git-remotes/_templates --mirror https://github.com/michelle/reliable.git /home/zein/.npm/_git-remotes/https-github-com-michelle-reliable-git-d471b5bd
+392 error Cloning into bare repository '/home/zein/.npm/_git-remotes/https-github-com-michelle-reliable-git-d471b5bd'...
+392 error fatal: unable to access 'https://github.com/michelle/reliable.git/': Failed to connect to github.com port 443: Connection timed out
+393 error If you need help, you may report this error at:
+393 error     <https://github.com/npm/npm/issues>
+394 verbose exit [ 1, true ]
+395 verbose unbuild node_modules/peerjs
+396 info preuninstall peerjs@0.3.14
+397 info uninstall peerjs@0.3.14
+398 verbose unbuild rmStuff peerjs@0.3.14 from /home/zein/Videos/Streaming/node_modules
+399 info postuninstall peerjs@0.3.14
+400 silly gentlyRm /home/zein/Videos/Streaming/node_modules/peerjs is being purged from base /home/zein/Videos/Streaming
+401 verbose gentlyRm don't care about contents; nuking /home/zein/Videos/Streaming/node_modules/peerjs
+402 silly vacuum-fs purging /home/zein/Videos/Streaming/node_modules/peerjs
+403 silly vacuum-fs quitting because other entries in /home/zein/Videos/Streaming/node_modules
